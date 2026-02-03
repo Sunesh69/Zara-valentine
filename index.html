@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zara 💖 Valentine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+
+  <main class="card">
+    <h1>Will you be my Valentine? 💘</h1>
+    <p class="sub">For <span class="name">Zara</span></p>
+
+    <div class="buttons">
+      <button id="yesBtn">YES 💕</button>
+      <button id="noBtn">NO 🙄</button>
+    </div>
+  </main>
+
+  <div id="hearts"></div>
+  <div id="roses"></div>
+
+  <audio id="loveSong" src="song.mp3" loop></audio>
+
+  <section id="popup" class="popup">
+    <div class="popup-box animate">
+      <div class="emojis">🤗 🌸 💞</div>
+      <h2>Yay! She said YES 💕</h2>
+      <p class="msg typing" id="typedText"></p>
+      <button id="closeBtn">❤️</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
