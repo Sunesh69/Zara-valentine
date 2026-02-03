@@ -100,4 +100,4 @@ yesBtn.addEventListener("click",()=>{
   fadeInMusic(); typeText(); shootConfetti(160);
 });
 
-closeBtn.addEventListener("click",()=>{ popup.style.display="none"; song.pause(); });
+closeBtn.addEventListener("click",()=>{ popup.style.display="none"; song.pause(); }); 
