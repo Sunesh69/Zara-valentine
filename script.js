@@ -48,7 +48,7 @@ function showNext(){
     complimentEl.offsetHeight;
     complimentEl.style.animation="fadeText 1s";
     index++;
-    setTimeout(showNext,4000); // 10 sec each
+    setTimeout(showNext,3000); // 10 sec each
   }else{
     setTimeout(()=>{ // 2 sec pause
       spotlight.classList.remove("hidden");
@@ -57,7 +57,7 @@ function showNext(){
     },2000);
   }
 }
-setTimeout(showNext,4000);
+setTimeout(showNext,3000);
 
 // NO button move
 function moveNo(){
