@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zara 💖 Valentine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="confetti"></canvas>
+<div class="hearts"></div>
+<div id="spotlight" class="spotlight hidden"></div>
+
+<h1 class="top-heading">
+Before I ask you something… let me tell you why you matter 💕
+</h1>
+
+<main class="card">
+  <p id="compliment">Because you have the prettiest smile 💖</p>
+</main>
+
+<div id="question" class="hidden card">
+  <h2>Will you be my Valentine? 💘</h2>
+  <p class="from">— from <span id="fromName">Your secret admirer 😉</span></p>
+  <div class="buttons">
+    <button id="yesBtn">YES 💕</button>
+    <button id="noBtn">NO 🙄</button>
+  </div>
+</div>
+
+<audio id="song" src="song.mp3" preload="auto" loop></audio>
+
+<div id="popup" class="popup">
+  <div class="popup-box">
+    <h2>She said YES 💍</h2>
+    <p id="typedText"></p>
+    <p class="final">Thank you for choosing me ❤️</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
